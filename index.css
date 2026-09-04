@@ -1,0 +1,385 @@
+*{padding: 0;
+margin: 0;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+.nav{
+    font-size: 20px;
+    padding: 0px 30px;
+    background: linear-gradient(125deg, rgb(247, 247, 248), rgb(2, 2, 125));
+    display: flex;
+justify-content: space-between;
+height: 70px;
+align-items: center;
+
+}
+
+.name{
+    color: rgb(20, 4, 91);
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.list{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    
+}
+.list a{
+    text-decoration: none;
+    color: rgb(242, 241, 244);
+    font-weight: 600;
+    
+}
+.list a:hover{
+    color: white;
+    text-decoration: underline;
+}
+.daniyal{
+    height: 700px;
+    width: 500px;
+}
+.zaid{
+    height: 350px;
+    width: 500px;
+}
+.ahmad{
+    height: 400px;
+    width: 500px;
+}
+.hero{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(200, 196, 245);
+    height: 700px;
+    background: linear-gradient(220deg, rgb(3, 3, 104), rgb(233, 233, 236));
+}
+.right{
+    height: 500px;
+    width: 800px;
+    border-radius: 20px;
+    align-self: center;
+    overflow: hidden;
+    border: 2px solid rgb(2, 2, 71);
+
+}
+.right img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.right:hover{
+    box-shadow: 0px 0px 10px;
+}
+.left{
+    align-self: center;
+}
+.heading{
+    font-size: 50px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    letter-spacing: 10px;
+}
+.paragraph{
+    font-size: 22px;
+}
+.btn{
+    padding: 12px 20px;
+    margin-top: 30px;
+    background-color: rgb(7, 7, 58);
+    color: white;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: bold;
+}
+.btn:hover{
+    background-color: transparent;
+    border: 2px solid black;
+    color: black;
+    font-weight: bold
+}
+.main-services{
+font-size: 50px;
+text-align: center;
+color: rgb(4, 4, 78);
+background-color: rgb(236, 232, 232);
+padding-bottom: 30px;
+padding-top: 50px;
+
+}
+
+.services{
+    display: flex;
+    justify-content: space-around;
+    object-fit: cover;
+    background-color: rgb(236, 232, 232);
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.services-heading{
+    font-size:40px;
+    text-align: center;
+}
+.services-p{
+    font-size: 20px;
+    color: rgb(20, 20, 108);
+    margin-bottom: 10px;
+    padding: 0px 10px;
+    text-align: center;
+}
+.services-btn{
+    padding: 12px 20px;
+    border: none;
+    border-radius: 18px;
+    font-weight: bold;
+    background-color: rgb(2, 2, 66);
+    color: white;
+    margin-top: 20px;
+    display: block;
+    margin: 0px auto;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+.services-btn:hover{
+    background-color: transparent;
+    color: rgb(3, 3, 61);
+    border: 2px solid rgb(27, 27, 71);
+    text-decoration: none; 
+    font-weight: bold;
+
+}
+.services img{
+    width: 100%;
+    height: 200px;
+    object-fit: fill;
+}
+.cards{
+    width: 300px;
+    border: 2px solid rgb(3, 3, 94);
+    border-radius: 10px;
+    overflow: hidden;  
+    box-shadow: 0px 0px 2px rgb(3, 3, 161);
+    transition: box-shadow 0.2s ease, transform 0.3s ease;
+}
+.cards a{
+    text-decoration: none;
+}
+.cards:hover{
+    box-shadow: 1px 3px 5px rgb(1, 1, 75);
+    transform: translateY(-5px)
+}
+
+    /* about section css */
+.about{
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+    
+    background-color: rgb(236, 232, 232);
+}
+.about-img{
+    width: 800px;
+    overflow: hidden;
+    height: 500px;
+    border: 3px solid rgb(28, 3, 97);
+    border-radius: 100px 150px 0px 100px;
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+.about-img:hover{
+    box-shadow: 2px 2px 3px rgb(1, 1, 75);
+    transform: translateY(-6px);
+}
+.about-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.about-menu{
+    width: 800px;
+    padding: 30px;
+}
+.aboutheading{
+    font-size: 50px;
+    text-align: center;
+    color: rgb(12, 12, 75);
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.about-p{
+    font-size: 22px;
+    margin-top: 15px; 
+    line-height: 30px;  
+    text-align: center;
+}
+.about-btn{
+    padding: 8px 80px;
+    margin: 20px;
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+    border: none;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    border-radius: 12px;
+    background-color: rgb(2, 2, 66);
+
+}
+.about-btn:hover{
+    background-color: transparent;
+    color: rgb(1, 1, 71);
+    border: 2px solid rgb(2, 2, 83);
+    cursor: pointer;
+}
+
+/* tools section css */
+
+.tools{
+    font-size: 40px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    padding: 50px 0px;
+    color: rgb(2, 2, 71);
+    background-color: rgb(236, 232, 232);
+    
+}
+.tools-main{
+    width: 100%;
+    height: 400px;
+    background-color: rgb(236, 232, 232);
+    
+}
+.tools-left{
+    justify-content: space-around;
+    display: flex;
+    
+
+}
+.tools-img{
+    border: 2px solid rgb(3, 3, 71);
+    border-radius: 50%;
+    overflow: hidden;
+    width: 125px;
+    height: 125px;
+    gap: 50px;
+    padding: 10px;
+    background-color: white;
+    box-shadow: 1px 2px 3px rgb(1, 1, 82);
+}
+.tools-img img{
+    object-fit: contain;
+    width: 100%;
+    height: 100%;
+    transition: box-shadow 0.5s ease, transform 1s ease;
+}
+.tools-right{
+    justify-content: space-around;
+    display: flex;
+    margin-top: 50px;  
+}
+.tools-img:hover{
+    transform: translateY(-6px);
+    box-shadow: 2px 3px 4px rgb(1, 1, 82);
+}
+
+
+.footer-section{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    padding-bottom: 10px;
+    background: linear-gradient(120deg, rgb(249, 249, 249), rgb(17, 17, 72));
+}
+
+.logo-section{
+    width: 300px;
+    overflow: hidden;
+}
+
+.logo-section img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.menu-section{
+    align-content: center;
+}
+
+.menu-section ul li{
+    list-style: none;
+}
+
+.menu-section ul li a{
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 600;
+    color: rgb(34, 34, 157);
+    color: rgb(226, 231, 236);
+    line-height: 25px;
+}
+
+.menu-section ul li a:hover{
+    text-decoration: underline;
+}
+
+.menu-section h3{
+    padding-bottom: 10px;
+    font-size: 22px;
+    color: aliceblue;
+}
+
+.detail-section{
+    align-content: center;
+}
+
+.detail-section h3{
+    font-size: 20px;
+    margin-top: 10px;
+    color: aliceblue;
+}
+
+.detail-section p{
+    font-size: 18px;
+    font-weight: 600;
+    color: rgb(213, 213, 215);
+}
+
+.ek-logo{
+    overflow: hidden;
+    height: 80px;
+
+}
+
+.ek-logo img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+
+.projects-main{
+    height: 200px;
+    width: 100%;
+    background: url("https://www.ipmcinc.com/wp-content/uploads/2022/12/Project-Portfolio-Management.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.projects-main h1{
+    text-align: center;
+    padding-top: 80px;
+    color: rgb(10, 6, 89);
+    font-size: 40PX;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.cards h2{
+    font-size: 25px;
+    padding: 10px;
+}
+.services-btn{
+    padding: 10px 50px;
+}
