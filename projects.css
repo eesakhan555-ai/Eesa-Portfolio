@@ -1,0 +1,44 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.projects-main{
+    height: 200px;
+    width: 100%;
+    background: url("https://www.ipmcinc.com/wp-content/uploads/2022/12/Project-Portfolio-Management.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.projects-main h1{
+    text-align: center;
+    padding-top: 80px;
+    color: rgb(10, 6, 89);
+    font-size: 40PX;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.cards h2{
+    font-size: 25px;
+}
+.services-btn{
+    padding: 10px 50px;
+}
+/* ---- Responsive ---- */
+@media (max-width: 768px){
+    .projects-main{
+        height: 150px;
+    }
+    .projects-main h1{
+        font-size: 30px;
+        padding-top: 55px;
+    }
+}
+
+@media (max-width: 480px){
+    .projects-main{
+        height: 120px;
+    }
+    .projects-main h1{
+        font-size: 22px;
+        padding-top: 42px;
+    }
+}

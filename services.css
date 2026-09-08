@@ -1,0 +1,37 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.main-services{
+    background: url("https://img.magnific.com/premium-photo/data-technology-background-with-dots-binary-code-3d-wave-landscape-digital-processing_483949-16701.jpg?semt=ais_hybrid&w=740&q=80");
+height: 150px;
+color: white;
+
+}
+.main-services h1{
+    font-size: 60px;
+    padding-top: 30px;
+}
+
+/* ---- Responsive ---- */
+@media (max-width: 768px){
+    .main-services{
+        height: 110px;
+    }
+    .main-services h1{
+        font-size: 38px;
+        padding-top: 25px;
+        text-align: center;
+    }
+}
+
+@media (max-width: 480px){
+    .main-services{
+        height: 90px;
+    }
+    .main-services h1{
+        font-size: 28px;
+        padding-top: 20px;
+    }
+}
